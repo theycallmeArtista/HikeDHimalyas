@@ -1,0 +1,74 @@
+name: HikedHimalayas
+description: "Find Freedom Above."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.26.0
+  firebase_auth: ^4.17.7
+  flutter_swiper_view: ^1.1.8
+  curved_navigation_bar: ^1.0.6
+  carousel_slider: ^5.0.0
+  cloud_firestore: ^4.15.7
+  image_picker: ^1.1.2
+  firebase_storage: ^11.6.8
+  ionicons: ^0.2.1
+  lottie: ^2.1.0
+  cached_network_image: ^3.2.3
+  chewie: ^1.2.2
+  animate_do: ^2.0.0
+  firebase_app_check: ^0.2.1+16
+  googleapis: ^13.2.0
+  google_api_availability: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - img/pic111.jpeg
+    - img/pic1.jpg
+    - img/pic22.png
+    - img/first.png
+    - img/second.png
+    - img/third.png
+    - img/bal.png
+    - img/para.png
+    - img/raft.png
+    - assets/Animation - 1730610747712.json
+    - assets/background.png
+    - assets/profile_pic.png
+    - assets/background2.png
+    - assets/profile_bac.jpeg
+    - assets/placeholder_image.jpg
+    - assets/swipe-anim.json
+    - assets/swipe_right.json
+    - assets/loc_anim.json
+    - assets/para_anim.json
+    - assets/camp_anim.json
+
+  fonts:
+    - family: Play
+      fonts:
+        - asset: fonts/AlfaSlabOne-Regular.ttf
+
+    - family: Rock
+      fonts:
+        - asset: fonts/RockSalt-Regular.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Black.ttf
+
+
